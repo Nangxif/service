@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+	<meta name="render" content="webkit">
+	<title>读书郎客服</title>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<link rel="shortcut icon" href="./favicon.ico" />
+	<link rel="bookmark" href="./favicon.ico" type="image/x-icon"　/>
+	<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+</head>
+<body>
+	<div class="conversation">
+		<div class="title max">
+			<img src="./images/logo.jpg"/>
+			<p>相伴成长 快乐学习</p>
+		</div>
+		<div class="content">
+			<div class="content_left">
+				<div id="dialog">
+					
+				</div>
+				<div id="item" class="max">
+					<a class="font">
+						<div class="font_dialog">
+							<p class="active">14px</p>
+							<p>16px</p>
+							<p>18px</p>
+							<p>20px</p>
+							<p>22px</p>
+						</div>
+					</a>
+					<a class="type">
+					</a>
+				</div>
+				<div class="send_wrapper">
+					<a class="send_wrapper_type min"></a>
+					<div id="import" contenteditable="true">
+					</div>
+					<div class="conversation_btn">
+						<a id="send">发送</a>
+						<a id="end" class="max">结束</a>
+					</div>
+				</div>
+				<a class="to_top max">回到顶部</a>
+			</div>
+			<div class="content_right max" id="question">
+				<p class="question_title">热点问题</p>
+				<p class="question_item" data-question="0">平板丢失处理方案?</p>
+				<p class="question_item" data-question="1">忘记锁屏密码?</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 问题分类弹框 -->
+	<div class="changeModal">
+		<div class="changeModal_content">
+			<div class="changeModal_content_title">请选择服务分类</div>
+			<div class="changeModal_content_wrapper">
+				<p class="changeModal_content_tip">设备分类</p>
+				<div class="changeModal_content_list" id="bType">
+				</div>
+				<p class="changeModal_content_tip">机型分类</p>
+				<div class="changeModal_content_list" id="sType">
+					
+				</div>
+				<p class="changeModal_content_tip"></p>
+			</div>
+			<div class="changeModal_content_footer">
+				<a>确定</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+</html>
